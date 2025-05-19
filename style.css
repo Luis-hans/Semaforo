@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  background-color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+  border: #808080 2px solid; 
+  border-radius: 25px;
+}
+.button {
+  padding: 10px;
+  transition: 0.2s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+}
+button#red {
+  background-color: red;
+  border: red 2px solid;
+  color: #fff;
+}
+button#yellow {
+  background-color: yellow;
+  border: yellow 2px solid;
+}
+button#green {
+  background-color: green;
+  border: green 2px solid;
+  color: #fff;
+}
+button#auto {
+  background-color: gray;
+  border: gray 2px solid;
+}
+button#red:hover {
+  background-color: #fff;
+  border: red 2px solid;
+  color: #000;
+}
+button#yellow:hover {
+  background-color: #fff;
+  border: yellow 2px solid;
+}
+button#green:hover {
+  background-color: #fff;
+  border: green 2px solid;
+  color: #000;
+}
+button#auto:hover {
+  background-color: #fff;
+  border: gray 2px solid;
+}
